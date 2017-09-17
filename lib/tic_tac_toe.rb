@@ -100,3 +100,11 @@ def winner(board)
     board[winner.first]
   end
 end
+
+def play(board)
+  count = 0
+  while count < 9
+    count += 1
+    turn(board)
+  end
+end
